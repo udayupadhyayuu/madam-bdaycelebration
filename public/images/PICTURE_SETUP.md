@@ -8,6 +8,9 @@ Please add 6 photos to this folder with the following names:
 - `pic4.jpg`
 - `pic5.jpg`
 - `pic6.jpg`
+- `pic7.jpg`
+- `pic8.jpg`
+- `pic9.jpg`
 
 These photos will appear in the gallery on page 3 of the website.
 

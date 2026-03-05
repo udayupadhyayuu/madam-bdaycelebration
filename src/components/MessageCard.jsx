@@ -13,20 +13,29 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Ritika,
 
-Your personalized birthday message goes here.
+जन्मदिन की ढेर सारी बधाई मेरी जान ❤️
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+तू मेरी जिंदगी की सबसे प्यारी वजह सै।
+सच कहूँ तो मैं तने घणा प्यार करूँ सूँ।
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+मन्ने पता सै मैं कई बार तने परेशान कर दूँ सूँ,
+कदे-कदे चिढ़ा भी दूँ सूँ,
+पर के करूँ… यो ही मेरा प्यार दिखाण का तरीका सै।
+मैं जानूँ सूँ कई बार मैं तने irritate भी करूँ सूँ,
+पर मेरी जान, वो भी प्यार तै ही सै।
 
-Happy Birthday! 🎉
+हालात चाहे हमारे खिलाफ हो जावें,
+पर मन्ने अपने प्यार पे पूरा भरोसा सै।
+मैं हर हाल में तेरे साथ खड़ा रहूँगा।
 
-— [Your Name]`;
+तू साथ सै तो सब ठीक सै,
+वरना इस दुनिया का कोई मतलब ना सै मेरे तै।
 
+Happy Birthday, My Love 🎉
+
+— Uday`;
   // Handle page transitions
   useEffect(() => {
     // Only trigger on transition to active
@@ -59,7 +68,7 @@ Happy Birthday! 🎉
               duration: 0.5,
               ease: "power2.inOut",
             },
-            0.3
+            0.3,
           );
         }
 
@@ -108,7 +117,7 @@ Happy Birthday! 🎉
           duration: duration,
           ease: "power3.inOut",
         },
-        0
+        0,
       );
 
       timeline.to(
@@ -119,7 +128,7 @@ Happy Birthday! 🎉
           duration: duration,
           ease: "power3.inOut",
         },
-        0
+        0,
       );
 
       // Fade out curtains
@@ -130,7 +139,7 @@ Happy Birthday! 🎉
           duration: 0.5,
           delay: isMobile ? 0.8 : 1,
         },
-        0
+        0,
       );
 
       // Reveal message content with smooth animation
@@ -143,7 +152,7 @@ Happy Birthday! 🎉
           ease: "back.out(1.2)",
           delay: isMobile ? 0.6 : 0.8,
         },
-        0
+        0,
       );
     }
   };
